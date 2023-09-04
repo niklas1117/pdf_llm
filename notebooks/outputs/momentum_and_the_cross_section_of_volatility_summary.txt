@@ -1,0 +1,18 @@
+1. Introduction:
+The study focuses on examining the clustering of high volatility stocks in momentum portfolios and the impact of this clustering on momentum risks. The researchers note that while momentum strategies can produce abnormal performance, their volatility tends to be higher than that of the market. This is attributed to the asset selection mechanism of momentum strategies, which invest in stocks with the highest and lowest relative returns. The study aims to explore this phenomenon in more detail and propose a risk-adjusted momentum strategy to mitigate momentum risks and improve performance.
+
+2. Data & Methodology:
+The researchers use two major samples of data for their analysis. The first sample consists of stocks traded on the London Stock Exchange from January 1965 to July 2018. The second sample includes 70 investable instruments in commodity, equity indices, and fixed income asset classes. The data sources for these samples are Datastream and Bloomberg.
+
+To construct momentum portfolios, the researchers employ a 12-month formation period and select assets with high past performance as winners and assets with low past performance as losers. The portfolios are rebalanced monthly and sorted into quantiles to ensure diversification. The formation period avoids short-term reversal by skipping the most recent month. The researchers also consider factors like continuous trading and tradability for real-world implementation.
+
+3. Results:
+The study finds that stocks with high realized volatility tend to lose momentum over the formation period, while stocks with low and medium realized volatility exhibit strong momentum effects. The portfolios are then divided into deciles based on realized volatility, and it is observed that the highest deciles do not display significant momentum effects, while the lowest deciles do.
+
+To measure momentum risks, the researchers calculate the excess volatility of momentum strategies compared to a market benchmark strategy. They find that the excess volatilities are statistically significant across various asset classes. This excess volatility is attributed to the clustering of high volatility stocks in momentum portfolios.
+
+To address this clustering problem, the study introduces a generalization of risk-adjusted momentum called GRJMOM. This strategy ranks assets based on risk-adjusted returns to mitigate the impact of high volatility stocks. GRJMOM outperforms other momentum strategies in terms of returns and volatility, and performs well during periods of momentum crashes.
+
+Furthermore, the researchers evaluate the risk exposure of GRJMOM using factor models and find that it outperforms other strategies. The strategy exhibits statistically significant alphas in the UK stock, commodity, and equity index markets. Its risk exposures are positively related to market factors, except in the fixed income market where the relationship is negative. GRJMOM reduces exposure to the momentum factor compared to other strategies.
+
+Overall, the findings suggest that risk-adjusted momentum strategies like GRJMOM can help mitigate momentum risks and improve performance. The study contributes to the literature on risk-managed momentum and provides insights into a different approach to addressing momentum risk.
